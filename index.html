@@ -9,8 +9,9 @@
       <nav>
         <ul>
           <li><a href="#">Поиск</a></li>
-          <li><a href="#">Закладки</a></li>
-          <li><a href="#">Корзина</a></li>
+          <input type="text"name='search'class="search" placeholder="Перфоратор">
+          <li><a href="#">Закладки:</a></li>
+          <li><a href="#">Корзина:</a></li>
           <li><a href="#">Оформить заказ</a></li>
         </ul>
         
@@ -19,28 +20,15 @@
             <li><a href="login.">Войти</a></li>
             <li><button type="button">Регистрация</button></li>
           </ul>
-        <form action="http://htmlacademy.ru" method="post">
-          <p>
-            <input type="text"name="login" placeholder="Введите Ваш e-mail адрес">
-          </p>
-          <p>
-            <input type="password"name="password" placeholder="Ваш пароль">
-            <input type="Name"name="Name" placeholder="Ваше имя">
-          </p>
-          <button type="submit">Зарегистрироваться</button>
-            <p>Уже зарегистрированны?</p>
-          <button type="button">Войти</button>
-
-        </form>
         
           <ul>
             <li><a href="#">Главная</a></li>
             <li><a href="#">Компания</a></li>
             <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="special offer">Спецпредлодения</a></li>
-            <li><a href="delivery">Доставка</a></li>
-            <li><a href="contact">Контакты</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Спецпредлодения</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Контакты</a></li>
           </ul> 
       </nav>
     </header>
@@ -61,6 +49,7 @@
             <a href="#"> Дрели</a>
             <p>соседям на радость</p>
             <img src="img/man.jpg"></img>
+            <a href="catolog.html">Открыть каталог</a>
           </li>
         </ul>
       <section>
@@ -72,6 +61,8 @@
           <li><a href="catalog-item.html">Перфоратор BFG 3000</a></li>
           <b>15500 руб.</b>
           <img src="img/Perforator2.jpg"></img>
+          <button type="#">Купить</button>
+          <button type="#">В закладки</button>
           <li><a href="catalog-item.html">Перфоратор BFG 6600</a></li>
           <b>25500 руб.</b>
           <img src="img/Perforator3.jpg"></img>
@@ -83,16 +74,16 @@
 
       <section>
         <h3>Популярные производители</h3>
-          <ul>
-            <li><a href="#">"BOSCH"</a></li>
-            <li><a href="#">"MAKITA"</a></li>
-            <li><a href="#">"DeWALT"</a></li>
-            <li><a href="#">"интерскол"</a></li>
-            <li><a href="#">"HITACI"</a></li>
-            <li><a href="#">"LG"</a></li>
-            <li><a href="#">"AEG POWER SOLUTIONS"</a></li>
-            <li><a href="#">"metabo work.don't play"</a></li>
-          </ul>
+        <ul>
+          <li><img src="img/bosch.jpg"></img></li>
+          <li><img src="img/Makita.jpg"></img></li>
+          <li><img src="img/DeWALT.jpg"></img></li>
+          <li><img src="img/Интерскол.jpg"></img></li>
+          <li><img src="img/Hitachi.jpg"></img></li>
+          <li><img src="img/LG.jpg"></img></li>
+          <li><img src="img/AEG.jpg"></img></li>
+          <li><img src="img/Metabo.jpg"></img></li>
+        </ul>
       </section>
 
       <section>
@@ -107,9 +98,9 @@
 
       <section>
         <ul>
-          <li><a href="delivary">Доставка</a></li>
-          <li><a href="guarantee">Гарантия</a></li>
-          <li><a href="loan">Кредит</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Гарантия</a></li>
+          <li><a href="#">Кредит</a></li>
         </ul>
       </section>
 
@@ -122,26 +113,29 @@
           <li><a href="#">Автотрейд</a></li>
           <li><a href="#">ЖелДорЭкспедиция</a></li>
         </ul>
+          <button type="#">Подробнее о нас</button> 
       </section>
 
       <section>
         <h5>Контакты</h5>
           <p>Вы можете забрать товар сами, заехав в наш офис:</p>
+          <img src="img/map.jpg"></img>
+          <button type="#">Заблудились?НАПИШИТЕ НАМ.</button>
       </section>
     </main>
 
 <footer>
   <p>г. Санкт-Петербург,ул. Б.Конюшенная, д. 19/8<br>+7(812)555-05-55</p>
   <ul>
-    <li><a href="company">Компания</a></li>
-    <li><a href="new">Новости</a></li>
-    <li><a href="catalog">Каталог</a></li>
-    <li><a href="delivary">Доставка</a></li>
-    <li><a href="contact">Контакты</a></li>
-    <li><a href="material">Материалы</a></li>
-    <li><a href="technique">Техника</a></li>
-    <li><a href="tooling">Инструменты></a></li>
-    <li><a href="special offer">Спецпредложения</a></li>
+    <li><a href="#">Компания</a></li>
+    <li><a href="#">Новости</a></li>
+    <li><a href="#">Каталог</a></li>
+    <li><a href="#">Доставка</a></li>
+    <li><a href="#">Контакты</a></li>
+    <li><a href="#">Материалы</a></li>
+    <li><a href="#">Техника</a></li>
+    <li><a href="#">Инструменты></a></li>
+    <li><a href="#">Спецпредложения</a></li>
   </ul>
   <div>
     <p>2010-2017<br>Компания "Техномарт"<br>Все права защищены.</p>
@@ -153,11 +147,11 @@
   </div>
   <p>
     Обратая связь:
-    <a href="#">"mail@htmlacademy.ru"></a>
+    <a href="#">"htmlacademy.ru"></a>
   </p>
   <p>
     Разработано:
-    <a href="#">htmlacademy.ru</a>
+    <a href="mailto">htmlacademy.ru</a>
   </p>
 </footer>
 </body>
