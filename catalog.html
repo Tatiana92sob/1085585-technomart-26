@@ -7,8 +7,9 @@
   <body>
     <header>
       <nav>
-       <a href="index.html">Логотип Техномарт</a>
-       <img src="img/logo-technomart.svg"></img>
+       <a href="index.html" img src="img/logo-technomart.svg">
+      </a>
+      
         <ul>
           <li><a href="#">Поиск</a></li>
           <input type="text"name='search'class="search" placeholder="Поиск">
@@ -41,19 +42,27 @@
           <form class="filter" method="get"action="https://echo htmlacademy.ru">
           <fieldset>
             <legend>Цена:</legend>
+          </fieldset>
+          <fieldset>
             <legend>Производители:</legend>
-            <ul>
-              <li class="filter-option"><input type="checkbox">BOSH</li>
-              <li class="filter-option"><input type="checkbox">ИНТЕРСКОЛ</li>
-              <li class="filter-option"><input type="checkbox">MAKITA</li>
-              <li class="filter-option"><input type="checkbox">DEWALT</li>
-              <li class="filter-option"><input type="checkbox">HITACHI</li>
-            </ul>
+            <div class="fabricators-list">
+              <input id="BOSH" type="checkbox" name="manufacturers" checked>
+              <label for="bosh">BOSH</label>
+              <input id="interscol" type="checkbox" name="manufacturers">
+              <label>ИНТЕРСКОЛ</label>
+              <input id="makita" type="checkbox" name="manufacturers" checked>
+              <label>MAKITA</label>
+              <input id="dewalt" type="checkbox" name="manufacturers">
+              <label>DEWALT</label>
+              <input id="hitachi" type="checkbox" name="manufacturers">
+              <label>HITACHI</label>
+            </div>
+          </fieldset>
+          <fieldset>
             <legend>Питание:</legend>
             <ul>
               <li class="filter-option"><input type="radio">АККУМУЛЯТОРНЫЕ</li>
               <li class="filter-option"><input type="radio">СЕТЕВЫЕ</li>
-            </ul>
           </fieldset>
           </form>
           <button type="button">Показать</button>
